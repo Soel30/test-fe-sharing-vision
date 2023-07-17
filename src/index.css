@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+  .tab-tem {
+    @apply cursor-pointer;
+  }
+  .tab-tem-active {
+    @apply z-30 block w-full px-0 py-1 mb-0 transition-all border rounded-lg ease-in-out cursor-pointer bg-white shadow text-slate-700 border-slate-700 border-b;
+  }
+}
